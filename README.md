@@ -1,4 +1,4 @@
-# UITableView_Placeholder
+# 给UITableView添加占位图
 #### 当页面包含一个UITableVeiw，当没有数据的时候显示一张占位图片，点击图片可以重新刷新数据。
 为UITableView增加个Category，利用方法method_exchangeImplementations交换reloadData方法为real_ReloadData，
 在real_ReloadData方法内判断是否有数据源，再动态显示占位的UIView。
